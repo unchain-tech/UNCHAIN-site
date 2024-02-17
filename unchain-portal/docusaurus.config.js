@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com/unchain-tech/',
+  url: 'https://unchain-tech.github.io/',
   baseUrl: '/UNCHAIN-site/',
 
   // GitHub pages deployment config.
