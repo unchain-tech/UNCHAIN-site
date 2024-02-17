@@ -13,12 +13,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://github.com/unchain-tech/',
+  baseUrl: '/UNCHAIN-site/',
 
   // GitHub pages deployment config.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'unchain-tech', // Usually your GitHub org/user name.
+  projectName: 'UNCHAIN-site', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
