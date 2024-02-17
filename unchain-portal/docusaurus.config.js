@@ -15,6 +15,7 @@ const config = {
   // Set the production url of your site here
   url: 'https://unchain-tech.github.io/',
   baseUrl: '/UNCHAIN-site/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   organizationName: 'unchain-tech', // Usually your GitHub org/user name.
