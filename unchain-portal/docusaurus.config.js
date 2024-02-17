@@ -96,7 +96,7 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: '/docs/learnIntro'
+                to: '/docs/learn/learnIntro'
               }
             ],
           },
