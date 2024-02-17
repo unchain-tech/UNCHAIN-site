@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: cd unchain-portal && yarn
       - name: Build website
-        run: yarn build
+        run: cd unchain-portal && yarn build
       - uses: actions/upload-pages-artifact@v1
         with:
           path: unchain-portal/build
