@@ -12,13 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
+      - uses: actions/cache@v3
+        id: npm-cache
         with:
-          node-version: 18
-          cache: npm
+          path: "**/node_modules"
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-{{ checksum "patches.hash" }}
       - name: Install dependencies
-        run: cd unchain-portal && npm ci
+        run: cd unchain-portal && yarn
       - name: Build website
-        run: npm run build
+        run: yarn build
       - uses: actions/upload-pages-artifact@v1
         with:
           path: unchain-portal/build
