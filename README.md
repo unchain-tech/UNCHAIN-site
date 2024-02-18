@@ -1,6 +1,6 @@
 # UNCHAIN-site
 
-UNCHAIN の新ポータルサイト用リポジトリです。
+UNCHAIN の新ポータルサイト用リポジトリ(仮)です。
 
 ## How to work
 
