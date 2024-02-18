@@ -63,7 +63,7 @@ const config = {
         title: 'UNCHAIN Portal',
         logo: {
           alt: 'UNCHAIN Portal',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
