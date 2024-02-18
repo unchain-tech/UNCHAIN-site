@@ -70,12 +70,6 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
             label: 'Learn',
           },
           {
@@ -92,10 +86,6 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-              {
                 label: 'Learn',
                 to: '/docs/learn/learnIntro'
               }
@@ -108,6 +98,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/unchain-tech',
               },
+              {
+                label: 'Notion',
+                href: 'https://unchain-shiftbase.notion.site/UNCHAIN-wiki-25faa44704a242a3b05e09691a0f03f2'
+              }
             ],
           },
         ],
